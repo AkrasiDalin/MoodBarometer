@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <link href="../static/libs/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="../static/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+
+    <div class="wrapper">
+      <form class="registration-form" method="POST" action='/admin'>
+        <h2 class="registration-form-title">Registration form</h2>
+        <input type="text" class="form-control" name="username" placeholder="Username" required="" autofocus="" />
+        <input type="text" class="form-control" name="password" placeholder="Password" />
+        <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit" value="add">ADD USER</button>
+        <button class="btn btn-sm btn-primary btn-block btn-danger" name="submit" type="submit" value="remove">REMOVE USER</button>
+      </form>
+    </div>
+
+  </body>
+</html>

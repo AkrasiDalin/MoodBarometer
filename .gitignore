@@ -1,0 +1,10 @@
+README.md
+*.pyc
+ter
+testingAREA.py
+classifier2.py
+moodbarometer.db
+*.json
+*.txt
+static/libs
+static/node_modules
