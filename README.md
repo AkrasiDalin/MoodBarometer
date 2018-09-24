@@ -1,4 +1,4 @@
-# StudentMoodmeter
+# Mood Barometer
 A sentiment analysis tool for twitter feeds
 
 HOW DOES IT WORK:
